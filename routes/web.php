@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('layouts.home');
 });
+
+
+Route::get('/rekapitulasi', function () {
+    return view('menus.rekapitulasi');
+});
